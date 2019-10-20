@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.scss';
 // 生命周期及基本处理
-import Clock from './components/clock'
+// import Clock from './components/clock'
 // 事件处理
-import Button from './components/button'
-import Input from './components/input'
+// import Button from './components/button'
+// import Input from './components/input'
 // 状态提升
 import Calculator from './components/calculator/index'
 // 组件包含，类似于插槽
