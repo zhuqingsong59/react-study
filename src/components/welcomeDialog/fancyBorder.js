@@ -1,9 +1,9 @@
 import React from 'react'
 
 class FancyBorder extends React.Component {
-  constructor(props) {
-    super(props)
-  }
+  // constructor(props) {
+  //   super(props)
+  // }
   render () {
     console.log(this.props)
     return (

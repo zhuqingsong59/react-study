@@ -1,8 +1,8 @@
 import React from 'react';
 class BoilingVerdict extends React.Component {
-  constructor(props) {
-    super(props)
-  }
+  // constructor(props) {
+  //   super(props)
+  // }
   render () {
     if (this.props.scale === 'c' && this.props.temperature >= 100) {
       return <p>The water would boil.</p>
