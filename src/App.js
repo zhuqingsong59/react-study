@@ -16,11 +16,11 @@ import WelcomeDialog from './components/welcomeDialog/index'
 class App extends React.Component {
   render() {
     return (
-      <div>
+      <>
         <Calculator />
         <WelcomeDialog />
         <h1>Hello, {this.props.name ? this.props.name : 'zqs'}</h1>
-      </div>
+      </>
     )
   }
 }
